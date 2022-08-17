@@ -13,7 +13,7 @@ jobs:
   cla:
     name: "Check Signature"
     runs-on: "ubuntu-latest"
-    if: github.repository_owner == 'authzed'
+    if: "github.repository_owner == 'authzed'"
     steps:
       - uses: "authzed/actions/cla-check@main"
         with:
