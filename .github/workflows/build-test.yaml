@@ -28,7 +28,7 @@ jobs:
       - name: "Run Trivy vulnerability scanner"
         uses: "aquasecurity/trivy-action@master"
         with:
-          image-ref: 'ghcr.io/vroldanbet/zed:latest'
+          image-ref: 'vroldanbet/zed:latest'
           format: 'table'
           exit-code: '1'
           ignore-unfixed: true
