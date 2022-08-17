@@ -11,6 +11,7 @@ on:  # yamllint disable-line rule:truthy
       - "synchronize"
 jobs:
   cla:
+    if: false
     name: "Check Signature"
     runs-on: "ubuntu-latest"
     steps:
